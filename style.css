@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    font-size: ;
+    text-align: center;
+}
+
+.header-image{
+    background: url(https://images.squarespace-cdn.com/content/v1/577d2211414fb56605e1e917/1519700388311-LMTOA4JHLJCOJBN7MBQ3/Hawa-Mahal-India.jpg?format=1500w);
+    background-size: cover;
+    width: 100%;
+    height: 60rem;    
+}
+
+.header-image nav{
+    width: 50%;
+    border-bottom-left-radius: 14px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    color: aqua;
+}
+
+.header-image nav a{
+    margin-left: 15px;
+    font-size: 1.2rem;
+}
+
+
+.places{
+    width: 100%;
+    height: 40rem;
+    background-color: yellowgreen;
+}
+
+.information-brochure{
+    background-color: yellow;
+    width: 100%;
+    height: 40rem;    
+}
+
+.bottom{
+    width: 100%;
+    height: 40rem;
+    background-color: yellowgreen;
+}
+
+@media(max-width:768px){
+    .header-image{
+        width: 100vb;
+        height: 25vh;
+    }
+
+    .places{
+        width: 100vb;
+        height: 25vh;
+    }
+
+    .information-brochure{
+        width: 100vb;
+        height: 25vh;
+    }
+
+    .bottom{
+        width: 100vb;
+        height: 25vh;
+    }
+}
